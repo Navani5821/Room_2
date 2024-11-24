@@ -10,6 +10,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 // import context
 import { RoomProvider } from "./Context/Context";
 
+
 // Get the root element
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

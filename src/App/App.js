@@ -17,6 +17,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <button onClick={() => {throw new Error("This is your first error!");}}>Break the world</button>;
       <Routes>
         {/* Define the route for the Home page */}
         <Route path="/" element={<Home />} />
